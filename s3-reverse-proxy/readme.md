@@ -1,5 +1,3 @@
-Here's what each part does:
-
 1. **Dependencies and Constants:**
 
    - We import the `express` and `http-proxy` modules.
