@@ -21,6 +21,6 @@ docker push <aws-account-id>.dkr.ecr.<region>.amazonaws.com/<image-name>
 https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-cluster-console-v2.html
 
 copy ecr URI
-ECS -> Task defination -> create new task defination -> Fargate -> OS -> ARM64
+ECS -> Task definition -> create new task defination -> Fargate -> OS -> ARM64
 -> task size -> add container -> image -> <ecr URI>
 -> remove port mapping(nothing exposed) -> add -> create -> run task
